@@ -126,7 +126,7 @@ if("reshape" %in% rownames(installed.packages()) == FALSE) {
 #load reshape package
 library(reshape)
 
-#create a tidy data and generate a txt file that contains the tidy data
+#create a tidy data and generate a txt file that contains the tidy data: for requirement 5
 avgByActivitySubj <- summarise_each(group_by(CombineData_tbldf,activityid,activityname,subjectid),funs(mean))
 avgByActivitySubjMelt <- melt.data.frame(avgByActivitySubj,id=1:3,variable_name="features")
 colnames(avgByActivitySubjMelt) <- gsub("value","mean",colnames(avgByActivitySubjMelt))
