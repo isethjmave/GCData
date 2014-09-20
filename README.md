@@ -1,9 +1,9 @@
 GCData
 ======
 
-#Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project
 
-##run_analysis.R will extract and merge data from the UCI HAR Dataset. 
+###run_analysis.R will extract and merge data from the UCI HAR Dataset. 
 
 To run it, make sure the UCI HAR Dataset folder is in the working directory  
 and type source("../run_analysis.R") into R.
