@@ -1,28 +1,28 @@
 ##CombineData_tbldf Data
 
-subjectid: Integer
-	Subject ID
-		subject number who perform the activity
+subjectid: Integer  
+	Subject ID  
+		subject number who perform the activity  
 		
-activityid: Integer
-	Activity ID
-		Activity number
-		1	.WALKING
-		2	.WALKING_UPSTAIRS
-		3	.WALKING_DOWNSTAIRS
-		4	.SITTING
-		5	.STANDING
-		6	.LAYING
-
-activityname: Characters
-	Activity Name
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
-
+activityid: Integer  
+	Activity ID  
+		Activity number  
+		1	.WALKING  
+		2	.WALKING_UPSTAIRS  
+		3	.WALKING_DOWNSTAIRS  
+		4	.SITTING  
+		5	.STANDING  
+		6	.LAYING  
+  
+activityname: Characters  
+	Activity Name  
+		WALKING  
+		WALKING_UPSTAIRS  
+		WALKING_DOWNSTAIRS  
+		SITTING  
+		STANDING  
+		LAYING  
+  
 With X, Y or Z denotes 3-axial signals in the X, Y and Z directions.
 with mean: denotes mean value
 with std: denotes standard deviation
