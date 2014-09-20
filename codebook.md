@@ -136,7 +136,7 @@ features: Characters
 	Feauture name that were tested - Refer to Data Dictionary of CombineData_tbldf for variables used
 
 mean: Double
-	Mean of each feature grouped by activity and subject
+	Mean of each feature tested grouped by activity and subject
 
 
 Note: for more specific details please refer to features_info.txt of the UCI HAR Dataset
