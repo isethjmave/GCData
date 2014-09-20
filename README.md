@@ -30,17 +30,16 @@ Below is the process on how the script works:
 15. Remove unnecessary data
 
 Final data output of the script are:
-CombineData_tbldf: Combine data of Test and Train 
-avgByActivitySubj: Get the average of each activity and subject
-avgByActivitySubjMelt: a reshape data frame (tidy data)
+* CombineData_tbldf: Combine data of Test and Train 
+* avgByActivitySubj: Get the average of each activity and subject
+* avgByActivitySubjMelt: a reshape data frame (tidy data)
 
 
 Last Part: 
 It will output a text file with 5 columns (data is from avgByActivitySubjMelt) for the course project requirement #5:
 
-activityid: activity number
-activityname: The activity the subject was performing when the data was taken 
-subjectid: subject number
-features: The name of the variable that is being measured. 
-mean: The mean of the variable being measured 
-
+* activityid: activity number
+* activityname: The activity the subject was performing when the data was taken 
+* subjectid: subject number
+* features: The name of the variable that is being measured. 
+* mean: The mean of the variable being measured 
